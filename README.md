@@ -8,7 +8,7 @@ This repo is where I practice writing clean code, build things I actually enjoy,
 
 ## Inspiration
 
-This project was inspired by [Mosh Hamedani](https://codewithmosh.com), whose teaching style made me realize that good code isn't just about making things work — it's about building the right habits from the start.
+This project was inspired by [Mosh Hamedani](https://github.com/mosh-hamedani), whose teaching style made me realize that good code isn't just about making things work — it's about building the right habits from the start.
 
 ---
 
@@ -18,7 +18,7 @@ Work in progress. This list grows as new ideas come in — completed projects wi
 
 | Project | Type | Status |
 | :--- | :--- | :--- |
-| Dice Rolling Game | Game | 🔲 Planned |
+| Dice Rolling Game | Game | ✅ Done |
 | Number Guessing Game | Game | 🔲 Planned |
 | Rock, Paper, Scissors | Game | 🔲 Planned |
 | QR Code Generator | Utility | 🔲 Planned |
