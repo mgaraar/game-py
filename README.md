@@ -19,7 +19,7 @@ Work in progress. This list grows as new ideas come in — completed projects wi
 | Project | Type | Status |
 | :--- | :--- | :--- |
 | Dice Rolling Game | Game | ✅ Done |
-| Number Guessing Game | Game | 🔲 Planned |
+| Number Guessing Game | Game | ✅ Done |
 | Rock, Paper, Scissors | Game | 🔲 Planned |
 | QR Code Generator | Utility | 🔲 Planned |
 | Currency Converter | Utility | 🔲 Planned |
