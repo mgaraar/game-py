@@ -18,7 +18,6 @@ best_score = None
 while True:                                    
     random_number = random.randint(1, 10)
     max_attempts = 5
-    won = False
 
     for attempt_number in range(1, max_attempts + 1):   
         remaining = max_attempts - attempt_number
@@ -30,7 +29,6 @@ while True:
 
         if guess == random_number:
             print(f"woah you get it in {attempt_number} attempt, cool!")
-            won = True
             if best_score is None or attempt_number < best_score:
                 best_score = attempt_number
                 print("new record!")
@@ -45,8 +43,8 @@ while True:
     if best_score is not None:
         print(f"your best score so far is in {best_score} attempt")
 
-    lagi = input("play again? (y/n): ")
-    if lagi.lower() != 'y':
+    play_again = input("play again? (y/n): ")
+    if play_again.lower() != 'y':
         print("Thanks for playing!")
         break
 
