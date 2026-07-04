@@ -22,7 +22,7 @@ Work in progress. This list grows as new ideas come in — completed projects wi
 | Number Guessing Game | Game | ✅ Done |
 | Rock, Paper, Scissors | Game | ✅ Done  |
 | QR Code Generator | Utility | ✅ Done  |
-| Currency Converter | Utility | 🔲 Planned |
+| Currency Converter | Utility | ✅ Done |
 | Quiz Game | Game | 🔲 Planned |
 | Tic Tac Toe | Game | 🔲 Planned |
 | To-Do List App | Utility | 🔲 Planned |
