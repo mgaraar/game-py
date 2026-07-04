@@ -20,8 +20,8 @@ Work in progress. This list grows as new ideas come in — completed projects wi
 | :--- | :--- | :--- |
 | Dice Rolling Game | Game | ✅ Done |
 | Number Guessing Game | Game | ✅ Done |
-| Rock, Paper, Scissors | Game | 🔲 Planned |
-| QR Code Generator | Utility | 🔲 Planned |
+| Rock, Paper, Scissors | Game | ✅ Done  |
+| QR Code Generator | Utility | ✅ Done  |
 | Currency Converter | Utility | 🔲 Planned |
 | Quiz Game | Game | 🔲 Planned |
 | Tic Tac Toe | Game | 🔲 Planned |
