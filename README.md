@@ -24,8 +24,8 @@ Work in progress. This list grows as new ideas come in — completed projects wi
 | QR Code Generator | Utility | ✅ Done  |
 | Currency Converter | Utility | ✅ Done |
 | Quiz Game | Game | ✅ Done |
-| Tic Tac Toe | Game | 🔲 Planned |
-| To-Do List App | Utility | 🔲 Planned |
+| Tic Tac Toe | Game | ✅ Done |
+| To-Do List App | Utility | ✅ Done |
 | Simple Text Editor | Utility | 🔲 Planned |
 | Pig Dice Game | Game | 🔲 Planned |
 | Cows and Bulls | Game | 🔲 Planned |
