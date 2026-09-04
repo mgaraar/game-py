@@ -45,18 +45,20 @@ def MenuUtama():
         print("3. selesaikan tugas")
         print("4. tampilkan tugas selesai")
         print("5. keluar")
-        menu = int(input("masukan nomor: "))
-        if menu == 1:
-            ToDo()
-        elif menu == 2:
-            TampilkanTugas()
-        elif menu == 3:
-            TugasSelesai()
-        elif menu == 4:
-            LoopsTugas()
-        elif menu == 5:
-            break
-        else:
-            print("masukan angka yang benar !")
-
+        try:
+            menu = int(input("masukan nomor: "))
+            if menu == 1:
+                ToDo()
+            elif menu == 2:
+                TampilkanTugas()
+            elif menu == 3:
+                TugasSelesai()
+            elif menu == 4:
+                LoopsTugas()
+            elif menu == 5:
+                break
+            else:
+                print("masukan angka yang benar !")
+        except ValueError:                                   
+            print('masukan command yang benar !')
 MenuUtama()
