@@ -26,7 +26,7 @@ Work in progress. This list grows as new ideas come in — completed projects wi
 | Quiz Game | Game | ✅ Done |
 | Tic Tac Toe | Game | ✅ Done |
 | To-Do List App | Utility | ✅ Done |
-| Simple Text Editor | Utility | 🔲 Planned |
+| Simple Text Editor | Utility | ✅ Done |
 | Pig Dice Game | Game | 🔲 Planned |
 | Cows and Bulls | Game | 🔲 Planned |
 | Password Strength Checker | Security | 🔲 Planned |
