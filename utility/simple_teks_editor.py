@@ -1,9 +1,3 @@
-# list to do (fitur):
-# membuat file/tulis baru
-# baca isi file
-# menambahkan teks ke isi file
-# hapus isi file
-
 import os
 
 def buat_file():
@@ -11,48 +5,62 @@ def buat_file():
     path = f"teks_editor/{nama}.txt"
     with open(path, "w") as file:
         file.write("")
-        return
-    
+    print(f"File '{nama}.txt' berhasil dibuat!")
+
 def list_folder():
-        files = os.listdir("teks_editor")
-        print("File yang tersedia:")
-        for nomor, file in enumerate(files, 1):
-            print(f"{nomor}. {file}")
+    files = os.listdir("teks_editor")
+    print("File yang tersedia:")
+    for nomor, file in enumerate(files, 1):
+        print(f"{nomor}. {file}")
+    return files  
 
 def baca_file():
     try:
-        list_folder()
-        pilih = input("masukan nama file yang mau dibaca: ")
-        path = f"teks_editor/{pilih}.txt"
+        files = list_folder()
+        pilih = int(input("masukan nomor file yang mau dibaca: ")) - 1
+        path = f"teks_editor/{files[pilih]}"
         with open(path, "r") as file:
             isi = file.read()
-            file.read()    
-            print(f"---{isi}---")
+            print(f"---\n{isi}\n---")
     except:
-        print("masukan nama file yang benar !")
-        print("pakai nama file bukan nomor ya..")
+        print("nomor tidak valid!")
 
 def tambah_isi():
-    list_folder()
-    pilih = input("masukan nama file yang mau dibaca: ")
-    path = f"teks_editor/{pilih}.txt"
-    with open(path, "a") as file:
-        file.write(input("apa yang mau ditambahkan: "))
+    try:
+        files = list_folder()
+        pilih = int(input("masukan nomor file yang mau ditambah: ")) - 1
+        path = f"teks_editor/{files[pilih]}"
+        teks = input("apa yang mau ditambahkan: ")
+        with open(path, "a") as file:
+            file.write(f"\n{teks}")
+        print("teks berhasil ditambahkan!")
+    except:
+        print("nomor tidak valid!")
 
 def hapus_file():
-    # menghapus sebuah file 
-    pass
+    try:
+        files = list_folder()
+        pilih = int(input("masukan nomor file yang mau dihapus: ")) - 1
+        path = f"teks_editor/{files[pilih]}"
+        os.remove(path)
+        print(f"File '{files[pilih]}' berhasil dihapus!")
+    except:
+        print("nomor tidak valid!")
 
 def menu():
     while True:
-        print("selamat datang !")
+        print("\nselamat datang!")
         print("-- simple teks editor --")
-        print("1. Buat/Tulis File")
+        print("1. Buat File")
         print("2. Baca File")
         print("3. Tambah Teks")
-        print("4. Hapus isi Teks")
+        print("4. Hapus File")
         print("5. Keluar")
-        pilihan = int(input('masukan nomor: '))
+        try:
+            pilihan = int(input('masukan nomor: '))
+        except:
+            print("masukan angka!")
+            continue
         if pilihan == 1:
             buat_file()
         elif pilihan == 2:
@@ -63,4 +71,7 @@ def menu():
             hapus_file()
         elif pilihan == 5:
             break
+        else:
+            print("pilihan tidak valid!")
+
 menu()
