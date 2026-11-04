@@ -27,13 +27,13 @@ Work in progress. This list grows as new ideas come in — completed projects wi
 | Tic Tac Toe | Game | ✅ Done |
 | To-Do List App | Utility | ✅ Done |
 | Simple Text Editor | Utility | ✅ Done |
-| Pig Dice Game | Game | 🔲 Planned |
-| Cows and Bulls | Game | 🔲 Planned |
-| Password Strength Checker | Security | 🔲 Planned |
-| Password Generator | Security | 🔲 Planned |
-| Word Guessing Game | Game | 🔲 Planned |
-| Slot Machine | Game | 🔲 Planned |
-| ATM Simulation | Utility | 🔲 Planned |
+| Pig Dice Game | Game | ✅ Done |
+| Cows and Bulls | Game | ✅ Done |
+| Word Guessing Game | Game | ✅ Done |
+| Password Strength Checker | Security | ✅ Done |
+| Password Generator | Security | ✅ Done |
+| Slot Machine | Game | ✅ Done |
+| ATM Simulation | Utility | ✅ Done |
 
 ---
 
@@ -52,7 +52,6 @@ cd game-py
 pip install -r requirements.txt
 
 # Run a project
-python project_name/main.py
 ```
 
 > Each project lives in its own folder. Check the folder for any project-specific notes.
