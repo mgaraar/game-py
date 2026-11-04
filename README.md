@@ -52,7 +52,8 @@ cd game-py
 pip install -r requirements.txt
 
 # Run a project
-```
+python project_name/main.py
+``` 
 
 > Each project lives in its own folder. Check the folder for any project-specific notes.
 
